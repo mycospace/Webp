@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professionelle Webseite</title>
+  <!-- Einbindung der externen CSS-Datei -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header und Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Leistungen</a></li>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Startbereich -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Willkommen bei Unserem Unternehmen</h1>
+      <p>Wir bieten innovative Lösungen für Ihren Erfolg.</p>
+    </div>
+  </section>
+
+  <!-- Leistungen -->
+  <section id="services">
+    <h2>Unsere Leistungen</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Beratung</h3>
+        <p>Kompetente Beratung und maßgeschneiderte Strategien.</p>
+      </div>
+      <div class="card">
+        <h3>Entwicklung</h3>
+        <p>Moderne Web- und Softwarelösungen für Ihr Unternehmen.</p>
+      </div>
+      <div class="card">
+        <h3>Support</h3>
+        <p>Rundum-Service und zuverlässiger Support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Über uns -->
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>Mit langjähriger Erfahrung und einem engagierten Team bieten wir innovative und zukunftsweisende Lösungen.</p>
+  </section>
+
+  <!-- Kontaktformular -->
+  <section id="contact">
+    <h2>Kontaktieren Sie uns</h2>
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Professionelle Webseite. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
